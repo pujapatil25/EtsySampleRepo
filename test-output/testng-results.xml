@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40152" started-at="2020-07-17T17:06:50Z" finished-at="2020-07-17T17:07:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40152" started-at="2020-07-17T17:06:50Z" finished-at="2020-07-17T17:07:30Z">
+      <class name="etsy.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="setUp" is-config="true" duration-ms="35815" started-at="2020-07-17T22:36:50Z" finished-at="2020-07-17T22:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLinksTest()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="verifyLinksTest" duration-ms="3446" started-at="2020-07-17T22:37:26Z" finished-at="2020-07-17T22:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-07-17T22:37:29Z" finished-at="2020-07-17T22:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- etsy.TestCases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

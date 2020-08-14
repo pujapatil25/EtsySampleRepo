@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Etsy Application Automation Test Suite">
+<listeners>
+<listener class-name="etsy.ExtentReportListner.ExtentReportListner"></listener>
+</listeners>
+  <test name="EtsyTest">
+    <classes>
+      <class name="etsy.TestCases.HomePageTest"/>
+      <class name="etsy.TestCases.RegisterPageTest"/>
+      <class name="etsy.TestCases.SignInPageTest"/>
+    </classes>
+  </test> <!-- EtsyTest -->
+</suite> <!-- Etsy Application Automation Test Suite -->
