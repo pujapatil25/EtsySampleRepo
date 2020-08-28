@@ -106,7 +106,7 @@ public class TestBaseKeyword {
 	public static String getLocator(String element)
 	{
 		String elementFromOR = prop.getProperty(element);
-		String locatorType=elementFromOR.split("##")[0].trim();
+		//String locatorType=elementFromOR.split("##")[0].trim();
 		String locatorValue=elementFromOR.split("##")[1].trim();
 		return locatorValue;
 	}
