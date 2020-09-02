@@ -25,12 +25,24 @@ public class SignInPageTest extends TestBaseKeyword{
 	@Test(priority = 1)
 	public void displayCheck()
 	{ homepage.clickOnSignInBtn();
+	try {
+		Thread.sleep(3000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 		Assert.assertEquals(true,signpage.checkDisplay(),"Element not displayed");
 	}
 	@Test(priority = 2)
 	public void signInEtsyTest()
 	{
 		homepage.clickOnSignInBtn();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		signpage.signInToEtsy();
 	}
 	@Test(priority = 3)

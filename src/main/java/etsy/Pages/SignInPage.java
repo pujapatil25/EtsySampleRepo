@@ -11,7 +11,7 @@ public class SignInPage extends TestBaseKeyword {
 	WebElement emailId;
 	@FindBy(id = "join_neu_password_field")
 	WebElement password;
-	@FindBy(xpath = "//button[@class='btn btn-large width-full btn-primary']")
+	@FindBy(xpath = "//button[@name='submit_attempt']")
 	WebElement signInBtnOnSignPage;
 	@FindBy(xpath = "//button[contains(text(),'Register')]")
 	WebElement registerBtn;

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Etsy Application Automation Test Suite" duration-ms="163014" started-at="2020-09-01T18:22:48Z" finished-at="2020-09-01T18:25:31Z">
+    <groups>
+    </groups>
+    <test name="EtsyTest" duration-ms="163014" started-at="2020-09-01T18:22:48Z" finished-at="2020-09-01T18:25:31Z">
+      <class name="etsy.TestCases.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.RegisterPageTest@4d339552]" name="setUp" is-config="true" duration-ms="12715" started-at="2020-09-01T23:53:45Z" finished-at="2020-09-01T23:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerOnEtsyTest()[pri:0, instance:etsy.TestCases.RegisterPageTest@4d339552]" name="registerOnEtsyTest" duration-ms="3125" started-at="2020-09-01T23:53:58Z" finished-at="2020-09-01T23:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerOnEtsyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.RegisterPageTest@4d339552]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-09-01T23:54:01Z" finished-at="2020-09-01T23:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- etsy.TestCases.RegisterPageTest -->
+      <class name="etsy.TestCases.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="setUp" is-config="true" duration-ms="12602" started-at="2020-09-01T23:54:15Z" finished-at="2020-09-01T23:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="displayCheck()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="displayCheck" duration-ms="3787" started-at="2020-09-01T23:54:27Z" finished-at="2020-09-01T23:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-09-01T23:54:31Z" finished-at="2020-09-01T23:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="setUp" is-config="true" duration-ms="13227" started-at="2020-09-01T23:54:44Z" finished-at="2020-09-01T23:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInEtsyTest()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="signInEtsyTest" duration-ms="5688" started-at="2020-09-01T23:54:57Z" finished-at="2020-09-01T23:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInEtsyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-09-01T23:55:03Z" finished-at="2020-09-01T23:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="setUp" is-config="true" duration-ms="11844" started-at="2020-09-01T23:55:17Z" finished-at="2020-09-01T23:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnRegisterToOpenPage()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="clickOnRegisterToOpenPage" duration-ms="1160" started-at="2020-09-01T23:55:29Z" finished-at="2020-09-01T23:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRegisterToOpenPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.SignInPageTest@7bc1a03d]" name="tearDown" is-config="true" duration-ms="1194" started-at="2020-09-01T23:55:30Z" finished-at="2020-09-01T23:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- etsy.TestCases.SignInPageTest -->
+      <class name="etsy.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="14653" started-at="2020-09-01T23:52:48Z" finished-at="2020-09-01T23:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBathAndBeautySubMenu()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="checkBathAndBeautySubMenu" duration-ms="3102" started-at="2020-09-01T23:53:03Z" finished-at="2020-09-01T23:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBathAndBeautySubMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="760" started-at="2020-09-01T23:53:06Z" finished-at="2020-09-01T23:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="13588" started-at="2020-09-01T23:53:06Z" finished-at="2020-09-01T23:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="takeFullPageScreenshot()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="takeFullPageScreenshot" duration-ms="8885" started-at="2020-09-01T23:53:20Z" finished-at="2020-09-01T23:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFullPageScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="818" started-at="2020-09-01T23:53:29Z" finished-at="2020-09-01T23:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="12190" started-at="2020-09-01T23:53:30Z" finished-at="2020-09-01T23:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLinksTest()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="verifyLinksTest" duration-ms="2441" started-at="2020-09-01T23:53:42Z" finished-at="2020-09-01T23:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="960" started-at="2020-09-01T23:53:44Z" finished-at="2020-09-01T23:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="12136" started-at="2020-09-01T23:54:02Z" finished-at="2020-09-01T23:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="homePageTitleTest" duration-ms="37" started-at="2020-09-01T23:54:14Z" finished-at="2020-09-01T23:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="727" started-at="2020-09-01T23:54:14Z" finished-at="2020-09-01T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="11116" started-at="2020-09-01T23:54:32Z" finished-at="2020-09-01T23:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="etsyImageLogoTest()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="etsyImageLogoTest" duration-ms="82" started-at="2020-09-01T23:54:43Z" finished-at="2020-09-01T23:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- etsyImageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="1189" started-at="2020-09-01T23:54:43Z" finished-at="2020-09-01T23:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="setUp" is-config="true" duration-ms="11905" started-at="2020-09-01T23:55:04Z" finished-at="2020-09-01T23:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInBtnClick()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="signInBtnClick" duration-ms="227" started-at="2020-09-01T23:55:16Z" finished-at="2020-09-01T23:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInBtnClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-09-01T23:55:16Z" finished-at="2020-09-01T23:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- etsy.TestCases.HomePageTest -->
+    </test> <!-- EtsyTest -->
+  </suite> <!-- Etsy Application Automation Test Suite -->
+</testng-results>

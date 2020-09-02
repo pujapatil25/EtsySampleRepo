@@ -12,7 +12,7 @@ public class HomePage extends TestBaseKeyword {
 	WebElement searchBox;
 	@FindBy(id = "logo")
 	WebElement etsyLogo;
-	@FindBy(xpath = "//button[contains(text(),'Sign in')]")
+	@FindBy(xpath = "//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']")
 	WebElement signInButton;
 	@FindBy(xpath = "//span[contains(text(),'Jewellery & Accessories')]")
 	WebElement jwelleryLink;

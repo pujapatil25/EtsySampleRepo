@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40152" started-at="2020-07-17T17:06:50Z" finished-at="2020-07-17T17:07:30Z">
+  <suite name="Default suite" duration-ms="37638" started-at="2020-09-01T10:43:28Z" finished-at="2020-09-01T10:44:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40152" started-at="2020-07-17T17:06:50Z" finished-at="2020-07-17T17:07:30Z">
-      <class name="etsy.TestCases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="setUp" is-config="true" duration-ms="35815" started-at="2020-07-17T22:36:50Z" finished-at="2020-07-17T22:37:26Z">
+    <test name="Default test" duration-ms="37638" started-at="2020-09-01T10:43:28Z" finished-at="2020-09-01T10:44:06Z">
+      <class name="etsy.TestCases.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:etsy.TestCases.SignInPageTest@6500df86]" name="setUp" is-config="true" duration-ms="29466" started-at="2020-09-01T16:13:28Z" finished-at="2020-09-01T16:13:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLinksTest()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="verifyLinksTest" duration-ms="3446" started-at="2020-07-17T22:37:26Z" finished-at="2020-07-17T22:37:29Z">
+        <test-method status="PASS" signature="displayCheck()[pri:0, instance:etsy.TestCases.SignInPageTest@6500df86]" name="displayCheck" duration-ms="7271" started-at="2020-09-01T16:13:57Z" finished-at="2020-09-01T16:14:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLinksTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.HomePageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-07-17T22:37:29Z" finished-at="2020-07-17T22:37:30Z">
+        </test-method> <!-- displayCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:etsy.TestCases.SignInPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="882" started-at="2020-09-01T16:14:05Z" finished-at="2020-09-01T16:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- etsy.TestCases.HomePageTest -->
+      </class> <!-- etsy.TestCases.SignInPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
